@@ -1,0 +1,137 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+    2 00000000 E000ED08 
+                       SCB_VTOR
+                               EQU              0xE000ED08  ; Vector Table Offs
+                                                            et Register
+    3 00000000 E000ED04 
+                       NVIC_INT_CTRL
+                               EQU              0xE000ED04  ; interrupt control
+                                                             state register
+    4 00000000 E000ED20 
+                       NVIC_SYSPRI2
+                               EQU              0xE000ED20  ; system priority r
+                                                            egister (2)
+    5 00000000 00FF0000 
+                       NVIC_PENDSV_PRI
+                               EQU              0x00FF0000  ; PendSV priority v
+                                                            alue (lowest)
+    6 00000000 10000000 
+                       NVIC_PENDSVSET
+                               EQU              0x10000000  ; value to trigger 
+                                                            PendSV exception
+    7 00000000         
+    8 00000000                 AREA             |.text|, CODE, READONLY, ALIGN=
+2
+    9 00000000                 THUMB
+   10 00000000                 REQUIRE8
+   11 00000000                 PRESERVE8
+   12 00000000         
+   13 00000000         m_interrupt_disable
+                               PROC
+   14 00000000                 EXPORT           m_interrupt_disable
+   15 00000000 F3EF 8010       MRS              r0, PRIMASK
+   16 00000004 B672            CPSID            I
+   17 00000006 4770            BX               LR
+   18 00000008                 ENDP
+   19 00000008         
+   20 00000008         m_interrupt_enable
+                               PROC
+   21 00000008                 EXPORT           m_interrupt_enable
+   22 00000008 F380 8810       MSR              PRIMASK, r0
+   23 0000000C 4770            BX               LR
+   24 0000000E                 ENDP
+   25 0000000E         
+   26 0000000E 00 00           ALIGN            4
+   27 00000010         
+   28 00000010                 END
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
+erwork --depend=.\objects\m_thread_switch.d -o.\objects\m_thread_switch.o -I.\R
+TE\_Target_1 -IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8
+\Device\Include -IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include --predefine="
+__UVISION_VERSION SETA 528" --predefine="STM32F40_41xxx SETA 1" --list=.\listin
+gs\m_thread_switch.lst ..\mCore\m_thread_switch.S
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+.text 00000000
+
+Symbol: .text
+   Definitions
+      At line 8 in file ..\mCore\m_thread_switch.S
+   Uses
+      None
+Comment: .text unused
+m_interrupt_disable 00000000
+
+Symbol: m_interrupt_disable
+   Definitions
+      At line 13 in file ..\mCore\m_thread_switch.S
+   Uses
+      At line 14 in file ..\mCore\m_thread_switch.S
+Comment: m_interrupt_disable used once
+m_interrupt_enable 00000008
+
+Symbol: m_interrupt_enable
+   Definitions
+      At line 20 in file ..\mCore\m_thread_switch.S
+   Uses
+      At line 21 in file ..\mCore\m_thread_switch.S
+Comment: m_interrupt_enable used once
+3 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Absolute symbols
+
+NVIC_INT_CTRL E000ED04
+
+Symbol: NVIC_INT_CTRL
+   Definitions
+      At line 3 in file ..\mCore\m_thread_switch.S
+   Uses
+      None
+Comment: NVIC_INT_CTRL unused
+NVIC_PENDSVSET 10000000
+
+Symbol: NVIC_PENDSVSET
+   Definitions
+      At line 6 in file ..\mCore\m_thread_switch.S
+   Uses
+      None
+Comment: NVIC_PENDSVSET unused
+NVIC_PENDSV_PRI 00FF0000
+
+Symbol: NVIC_PENDSV_PRI
+   Definitions
+      At line 5 in file ..\mCore\m_thread_switch.S
+   Uses
+      None
+Comment: NVIC_PENDSV_PRI unused
+NVIC_SYSPRI2 E000ED20
+
+Symbol: NVIC_SYSPRI2
+   Definitions
+      At line 4 in file ..\mCore\m_thread_switch.S
+   Uses
+      None
+Comment: NVIC_SYSPRI2 unused
+SCB_VTOR E000ED08
+
+Symbol: SCB_VTOR
+   Definitions
+      At line 2 in file ..\mCore\m_thread_switch.S
+   Uses
+      None
+Comment: SCB_VTOR unused
+5 symbols
+341 symbols in table

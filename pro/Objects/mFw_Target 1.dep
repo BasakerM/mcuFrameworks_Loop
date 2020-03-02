@@ -1,0 +1,300 @@
+Dependencies for Project 'mFw', Target 'Target 1': (DO NOT MODIFY !)
+F (..\ST\stm32f4xx_it.c)(0x5E15CDF3)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
+I (..\ST\stm32f4xx_it.h)(0x5E15CC71)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+F (..\ST\system_stm32f4xx.c)(0x5E15CC71)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+F (..\ST\startup_stm32f40_41xxx.s)(0x5E15CC71)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 528" --pd "STM32F40_41xxx SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
+F (..\ST\stlib\src\misc.c)(0x5E15CC72)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+F (..\ST\stlib\src\stm32f4xx_rcc.c)(0x5E15CC72)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\stm32f4xx_rcc.o --omf_browse .\objects\stm32f4xx_rcc.crf --depend .\objects\stm32f4xx_rcc.d)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+F (..\ST\stlib\src\stm32f4xx_gpio.c)(0x5E15CC72)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\stm32f4xx_gpio.o --omf_browse .\objects\stm32f4xx_gpio.crf --depend .\objects\stm32f4xx_gpio.d)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+F (..\ST\stlib\src\stm32f4xx_usart.c)(0x5E15CC72)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\stm32f4xx_usart.o --omf_browse .\objects\stm32f4xx_usart.crf --depend .\objects\stm32f4xx_usart.d)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+F (..\mCore\m_thread_switch.S)(0x5E428A34)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 528" --pd "STM32F40_41xxx SETA 1"--list .\listings\m_thread_switch.lst --xref -o .\objects\m_thread_switch.o --depend .\objects\m_thread_switch.d)
+F (..\mCore\main.c)(0x5E547D8D)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\mCore\mCore.h)(0x5E5480D2)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+F (..\mCore\mConfig.c)(0x5E55CE40)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mconfig.o --omf_browse .\objects\mconfig.crf --depend .\objects\mconfig.d)
+I (..\mCore\mCore.h)(0x5E5480D2)
+F (..\mDriver\uart\mUart1Driver.c)(0x5E55D447)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\muart1driver.o --omf_browse .\objects\muart1driver.crf --depend .\objects\muart1driver.d)
+I (..\mDriver\uart\mUartDriver.h)(0x5E55CC4F)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\mTask\mTask_console.c)(0x5E55D82B)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mtask_console.o --omf_browse .\objects\mtask_console.crf --depend .\objects\mtask_console.d)
+I (..\mCore\mCore.h)(0x5E5480D2)
+I (..\mDriver\uart\mUartDriver.h)(0x5E55CC4F)
+F (..\mTask\mTask_msgTestP.c)(0x5E547DD2)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mtask_msgtestp.o --omf_browse .\objects\mtask_msgtestp.crf --depend .\objects\mtask_msgtestp.d)
+I (..\mCore\mCore.h)(0x5E5480D2)
+F (..\mTask\mTask_msgTestS.c)(0x5E548D71)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mtask_msgtests.o --omf_browse .\objects\mtask_msgtests.crf --depend .\objects\mtask_msgtests.d)
+I (..\mCore\mCore.h)(0x5E5480D2)
+F (..\mTask\mTask_template.c)(0x5E44E237)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mtask_template.o --omf_browse .\objects\mtask_template.crf --depend .\objects\mtask_template.d)
+I (..\mCore\mCore.h)(0x5E5480D2)
