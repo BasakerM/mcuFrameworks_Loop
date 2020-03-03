@@ -1,5 +1,5 @@
 Dependencies for Project 'mFw', Target 'Target 1': (DO NOT MODIFY !)
-F (..\ST\stm32f4xx_it.c)(0x5E15CDF3)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
+F (..\ST\stm32f4xx_it.c)(0x5E15CDF3)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
 I (..\ST\stm32f4xx_it.h)(0x5E15CC71)
 I (..\ST\stm32f4xx.h)(0x5E15CC71)
 I (..\ST\core_cm4.h)(0x5E15CC71)
@@ -35,7 +35,7 @@ I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
-F (..\ST\system_stm32f4xx.c)(0x5E15CC71)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+F (..\ST\system_stm32f4xx.c)(0x5E15CC71)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
 I (..\ST\stm32f4xx.h)(0x5E15CC71)
 I (..\ST\core_cm4.h)(0x5E15CC71)
 I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
@@ -71,7 +71,7 @@ I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
 F (..\ST\startup_stm32f40_41xxx.s)(0x5E15CC71)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 528" --pd "STM32F40_41xxx SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
-F (..\ST\stlib\src\misc.c)(0x5E15CC72)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+F (..\ST\stlib\src\misc.c)(0x5E15CC72)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
 I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
 I (..\ST\stm32f4xx.h)(0x5E15CC71)
 I (..\ST\core_cm4.h)(0x5E15CC71)
@@ -106,7 +106,7 @@ I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
-F (..\ST\stlib\src\stm32f4xx_rcc.c)(0x5E15CC72)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\stm32f4xx_rcc.o --omf_browse .\objects\stm32f4xx_rcc.crf --depend .\objects\stm32f4xx_rcc.d)
+F (..\ST\stlib\src\stm32f4xx_rcc.c)(0x5E15CC72)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\stm32f4xx_rcc.o --omf_browse .\objects\stm32f4xx_rcc.crf --depend .\objects\stm32f4xx_rcc.d)
 I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
 I (..\ST\stm32f4xx.h)(0x5E15CC71)
 I (..\ST\core_cm4.h)(0x5E15CC71)
@@ -141,7 +141,7 @@ I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
-F (..\ST\stlib\src\stm32f4xx_gpio.c)(0x5E15CC72)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\stm32f4xx_gpio.o --omf_browse .\objects\stm32f4xx_gpio.crf --depend .\objects\stm32f4xx_gpio.d)
+F (..\ST\stlib\src\stm32f4xx_gpio.c)(0x5E15CC72)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\stm32f4xx_gpio.o --omf_browse .\objects\stm32f4xx_gpio.crf --depend .\objects\stm32f4xx_gpio.d)
 I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
 I (..\ST\stm32f4xx.h)(0x5E15CC71)
 I (..\ST\core_cm4.h)(0x5E15CC71)
@@ -176,7 +176,7 @@ I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
-F (..\ST\stlib\src\stm32f4xx_usart.c)(0x5E15CC72)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\stm32f4xx_usart.o --omf_browse .\objects\stm32f4xx_usart.crf --depend .\objects\stm32f4xx_usart.d)
+F (..\ST\stlib\src\stm32f4xx_usart.c)(0x5E15CC72)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\stm32f4xx_usart.o --omf_browse .\objects\stm32f4xx_usart.crf --depend .\objects\stm32f4xx_usart.d)
 I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
 I (..\ST\stm32f4xx.h)(0x5E15CC71)
 I (..\ST\core_cm4.h)(0x5E15CC71)
@@ -202,6 +202,76 @@ I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+F (..\ST\stlib\src\stm32f4xx_tim.c)(0x5E15CC72)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\stm32f4xx_tim.o --omf_browse .\objects\stm32f4xx_tim.crf --depend .\objects\stm32f4xx_tim.d)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+F (..\ST\stlib\src\stm32f4xx_syscfg.c)(0x5E15CC72)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\stm32f4xx_syscfg.o --omf_browse .\objects\stm32f4xx_syscfg.crf --depend .\objects\stm32f4xx_syscfg.d)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
 I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
@@ -212,7 +282,7 @@ I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
 F (..\mCore\m_thread_switch.S)(0x5E428A34)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 528" --pd "STM32F40_41xxx SETA 1"--list .\listings\m_thread_switch.lst --xref -o .\objects\m_thread_switch.o --depend .\objects\m_thread_switch.d)
-F (..\mCore\main.c)(0x5E547D8D)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\mCore\main.c)(0x5E547D8D)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\mCore\mCore.h)(0x5E5480D2)
 I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
 I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
@@ -250,9 +320,9 @@ I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
-F (..\mCore\mConfig.c)(0x5E55CE40)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mconfig.o --omf_browse .\objects\mconfig.crf --depend .\objects\mconfig.d)
+F (..\mCore\mConfig.c)(0x5E5DB71F)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mconfig.o --omf_browse .\objects\mconfig.crf --depend .\objects\mconfig.d)
 I (..\mCore\mCore.h)(0x5E5480D2)
-F (..\mDriver\uart\mUart1Driver.c)(0x5E55D447)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\muart1driver.o --omf_browse .\objects\muart1driver.crf --depend .\objects\muart1driver.d)
+F (..\mDriver\uart\mUart1Driver.c)(0x5E55E993)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\muart1driver.o --omf_browse .\objects\muart1driver.crf --depend .\objects\muart1driver.d)
 I (..\mDriver\uart\mUartDriver.h)(0x5E55CC4F)
 I (..\ST\stm32f4xx.h)(0x5E15CC71)
 I (..\ST\core_cm4.h)(0x5E15CC71)
@@ -289,12 +359,987 @@ I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
 I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
 I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
-F (..\mTask\mTask_console.c)(0x5E55D82B)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mtask_console.o --omf_browse .\objects\mtask_console.crf --depend .\objects\mtask_console.d)
+F (..\mDriver\tcp\mTcpDriver.c)(0x5E5D027B)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mtcpdriver.o --omf_browse .\objects\mtcpdriver.crf --depend .\objects\mtcpdriver.d)
+I (..\mDriver\tcp\mTcpDriver.h)(0x5E5D0275)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip_app\tcp_server_demo\tcp_server_demo.h)(0x5E1C58A3)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/stats.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwip_comm.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lan8720.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\stm32f4x7_eth.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\stm32f4x7_eth_conf.h)(0x5E15CC73)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+F (..\mTask\mTask_console.c)(0x5E55D82B)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mtask_console.o --omf_browse .\objects\mtask_console.crf --depend .\objects\mtask_console.d)
 I (..\mCore\mCore.h)(0x5E5480D2)
 I (..\mDriver\uart\mUartDriver.h)(0x5E55CC4F)
-F (..\mTask\mTask_msgTestP.c)(0x5E547DD2)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mtask_msgtestp.o --omf_browse .\objects\mtask_msgtestp.crf --depend .\objects\mtask_msgtestp.d)
+F (..\mTask\mTask_msgTestP.c)(0x5E547DD2)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mtask_msgtestp.o --omf_browse .\objects\mtask_msgtestp.crf --depend .\objects\mtask_msgtestp.d)
 I (..\mCore\mCore.h)(0x5E5480D2)
-F (..\mTask\mTask_msgTestS.c)(0x5E548D71)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mtask_msgtests.o --omf_browse .\objects\mtask_msgtests.crf --depend .\objects\mtask_msgtests.d)
+F (..\mTask\mTask_msgTestS.c)(0x5E548D71)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mtask_msgtests.o --omf_browse .\objects\mtask_msgtests.crf --depend .\objects\mtask_msgtests.d)
 I (..\mCore\mCore.h)(0x5E5480D2)
-F (..\mTask\mTask_template.c)(0x5E44E237)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mtask_template.o --omf_browse .\objects\mtask_template.crf --depend .\objects\mtask_template.d)
+F (..\mTask\mTask_template.c)(0x5E44E237)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mtask_template.o --omf_browse .\objects\mtask_template.crf --depend .\objects\mtask_template.d)
 I (..\mCore\mCore.h)(0x5E5480D2)
+F (..\mTask\mTask_tcpServer.c)(0x5E5DF43B)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mtask_tcpserver.o --omf_browse .\objects\mtask_tcpserver.crf --depend .\objects\mtask_tcpserver.d)
+I (..\mCore\mCore.h)(0x5E5480D2)
+I (..\mDriver\tcp\mTcpDriver.h)(0x5E5D0275)
+F (..\thirdParty\LWIP\lan8720.c)(0x5E5D05CA)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\lan8720.o --omf_browse .\objects\lan8720.crf --depend .\objects\lan8720.d)
+I (..\thirdParty\LWIP\lan8720.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\stm32f4x7_eth.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\stm32f4x7_eth_conf.h)(0x5E15CC73)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\malloc.h)(0x5E15CDF3)
+F (..\thirdParty\LWIP\malloc.c)(0x5E15CDF3)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\malloc.o --omf_browse .\objects\malloc.crf --depend .\objects\malloc.d)
+I (..\thirdParty\LWIP\malloc.h)(0x5E15CDF3)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+F (..\thirdParty\LWIP\stm32f4x7_eth.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\stm32f4x7_eth.o --omf_browse .\objects\stm32f4x7_eth.crf --depend .\objects\stm32f4x7_eth.d)
+I (..\thirdParty\LWIP\stm32f4x7_eth.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\stm32f4x7_eth_conf.h)(0x5E15CC73)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\timer.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (..\thirdParty\LWIP\timer.h)(0x5E15CC73)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwip_comm.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lan8720.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\stm32f4x7_eth.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\stm32f4x7_eth_conf.h)(0x5E15CC73)
+F (..\thirdParty\LWIP\arch\sys_arch.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\sys_arch.o --omf_browse .\objects\sys_arch.crf --depend .\objects\sys_arch.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/lwip_sys.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\timer.h)(0x5E15CC73)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+F (..\thirdParty\LWIP\lwip_app\tcp_server_demo\tcp_server_demo.c)(0x5E5D0079)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\tcp_server_demo.o --omf_browse .\objects\tcp_server_demo.crf --depend .\objects\tcp_server_demo.d)
+I (..\thirdParty\LWIP\lwip_app\tcp_server_demo\tcp_server_demo.h)(0x5E1C58A3)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/stats.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwip_comm.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lan8720.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\stm32f4x7_eth.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\stm32f4x7_eth_conf.h)(0x5E15CC73)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\malloc.h)(0x5E15CDF3)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip_app\lwip_comm\lwip_comm.c)(0x5E218095)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\lwip_comm.o --omf_browse .\objects\lwip_comm.crf --depend .\objects\lwip_comm.d)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwip_comm.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lan8720.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\stm32f4x7_eth.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\stm32f4x7_eth_conf.h)(0x5E15CC73)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\netif/etharp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/dhcp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/init.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\netif\ethernetif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/timers.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_frag.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcpip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\malloc.h)(0x5E15CDF3)
+I (..\thirdParty\LWIP\timer.h)(0x5E15CC73)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\api\api_lib.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\api_lib.o --omf_browse .\objects\api_lib.crf --depend .\objects\api_lib.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\api\api_msg.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\api_msg.o --omf_browse .\objects\api_msg.crf --depend .\objects\api_msg.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\api\err.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\err.o --omf_browse .\objects\err.crf --depend .\objects\err.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\api\netbuf.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\netbuf.o --omf_browse .\objects\netbuf.crf --depend .\objects\netbuf.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\api\netdb.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\netdb.o --omf_browse .\objects\netdb.crf --depend .\objects\netdb.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netdb.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\api\netifapi.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\netifapi.o --omf_browse .\objects\netifapi.crf --depend .\objects\netifapi.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\api\sockets.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\sockets.o --omf_browse .\objects\sockets.crf --depend .\objects\sockets.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\api\tcpip.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\tcpip.o --omf_browse .\objects\tcpip.crf --depend .\objects\tcpip.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\ipv4\autoip.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\autoip.o --omf_browse .\objects\autoip.crf --depend .\objects\autoip.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\ipv4\icmp.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\icmp.o --omf_browse .\objects\icmp.crf --depend .\objects\icmp.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/inet_chksum.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/stats.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/snmp.h)(0x5E15CC73)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\ipv4\igmp.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\igmp.o --omf_browse .\objects\igmp.crf --depend .\objects\igmp.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\ipv4\inet.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\inet.o --omf_browse .\objects\inet.crf --depend .\objects\inet.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/inet.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\ipv4\inet_chksum.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\inet_chksum.o --omf_browse .\objects\inet_chksum.crf --depend .\objects\inet_chksum.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/inet_chksum.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\ipv4\ip.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\ip.o --omf_browse .\objects\ip.crf --depend .\objects\ip.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_frag.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/inet_chksum.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/igmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/raw.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/udp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/snmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/dhcp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/autoip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/stats.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/perf.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\ipv4\ip_addr.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\ip_addr.o --omf_browse .\objects\ip_addr.crf --depend .\objects\ip_addr.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\ipv4\ip_frag.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\ip_frag.o --omf_browse .\objects\ip_frag.crf --depend .\objects\ip_frag.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_frag.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/inet_chksum.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/snmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/stats.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x5E15CC73)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\def.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\def.o --omf_browse .\objects\def.crf --depend .\objects\def.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\dhcp.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\dhcp.o --omf_browse .\objects\dhcp.crf --depend .\objects\dhcp.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\dns.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\dns.o --omf_browse .\objects\dns.crf --depend .\objects\dns.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\init.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\init.o --omf_browse .\objects\init.crf --depend .\objects\init.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/init.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/stats.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/lwip_sys.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/sockets.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/raw.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/udp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/snmp_msg.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/snmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/snmp_structs.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/autoip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/igmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/dns.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/timers.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\netif/etharp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/api.h)(0x5E15CC73)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\mem.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\mem.o --omf_browse .\objects\mem.crf --depend .\objects\mem.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/lwip_sys.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/stats.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\memp.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\memp.o --omf_browse .\objects\memp.crf --depend .\objects\memp.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/udp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/raw.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/igmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/api.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/api_msg.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcpip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/lwip_sys.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/timers.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/stats.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\netif/etharp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_frag.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/snmp_structs.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/snmp_msg.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/snmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/dns.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\netif/ppp_oe.h)(0x5E15CC73)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\netif.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\netif.o --omf_browse .\objects\netif.crf --depend .\objects\netif.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/snmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/igmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\netif/etharp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/stats.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\pbuf.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\pbuf.o --omf_browse .\objects\pbuf.crf --depend .\objects\pbuf.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/stats.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/lwip_sys.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/perf.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\raw.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\raw.o --omf_browse .\objects\raw.crf --depend .\objects\raw.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/raw.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/stats.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/perf.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\stats.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\stats.o --omf_browse .\objects\stats.crf --depend .\objects\stats.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\tcp.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\tcp.o --omf_browse .\objects\tcp.crf --depend .\objects\tcp.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/snmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/stats.h)(0x5E15CC73)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\tcp_in.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\tcp_in.o --omf_browse .\objects\tcp_in.crf --depend .\objects\tcp_in.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/inet_chksum.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/stats.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/snmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/perf.h)(0x5E15CC72)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\tcp_out.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\tcp_out.o --omf_browse .\objects\tcp_out.crf --depend .\objects\tcp_out.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/inet_chksum.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/stats.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/snmp.h)(0x5E15CC73)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\timers.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/timers.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp_impl.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/tcpip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_frag.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\netif/etharp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/dhcp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/autoip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/igmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/dns.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/lwip_sys.h)(0x5E15CC73)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\core\udp.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\udp.o --omf_browse .\objects\udp.crf --depend .\objects\udp.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/udp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/inet_chksum.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/icmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/stats.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/snmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/perf.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/dhcp.h)(0x5E15CC73)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\netif\etharp.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\etharp.o --omf_browse .\objects\etharp.crf --depend .\objects\etharp.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/stats.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/mem.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/memp_std.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/snmp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/dhcp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/autoip.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\netif/etharp.h)(0x5E15CC73)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (..\thirdParty\LWIP\lwip-1.4.1\src\netif\ethernetif.c)(0x5E15CC73)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I ..\ST -I ..\ST\stlib\inc -I ..\mCore -I ..\mDriver\uart -I ..\mDriver\tcp -I ..\thirdParty\LWIP -I ..\thirdParty\LWIP\arch -I ..\thirdParty\LWIP\lwip_app\lwip_comm -I ..\thirdParty\LWIP\lwip_app\tcp_server_demo -I ..\thirdParty\LWIP\lwip-1.4.1\src\include -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4 -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip -I ..\thirdParty\LWIP\lwip-1.4.1\src\include\netif-I.\RTE\_Target_1-IC:\Users\M\AppData\Local\Keil\Arm\Packs\Keil\STM32F4xx_DFP\1.0.8\Device\Include-IC:\Users\M\AppData\Local\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL-o .\objects\ethernetif.o --omf_browse .\objects\ethernetif.crf --depend .\objects\ethernetif.d)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\netif/ethernetif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/err.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\arch/cc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\arch/cpu.h)(0x5E15CC72)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/netif.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/def.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/pbuf.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lan8720.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\stm32f4x7_eth.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\stm32f4x7_eth_conf.h)(0x5E15CC73)
+I (..\ST\stm32f4xx.h)(0x5E15CC71)
+I (..\ST\core_cm4.h)(0x5E15CC71)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\ST\core_cmInstr.h)(0x5E15CC71)
+I (..\ST\core_cmFunc.h)(0x5E15CC71)
+I (..\ST\core_cm4_simd.h)(0x5E15CC71)
+I (..\ST\system_stm32f4xx.h)(0x5E15CC71)
+I (..\ST\stm32f4xx_conf.h)(0x5E15CC71)
+I (..\ST\stlib\inc\stm32f4xx_adc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_crc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dbgmcu.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dma.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_exti.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_flash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_gpio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_i2c.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_iwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_pwr.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rcc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rtc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_sdio.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_spi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_syscfg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_tim.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_usart.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_wwdg.h)(0x5E15CC72)
+I (..\ST\stlib\inc\misc.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_cryp.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_hash.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_rng.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_can.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dac.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_dcmi.h)(0x5E15CC72)
+I (..\ST\stlib\inc\stm32f4xx_fsmc.h)(0x5E15CC72)
+I (..\thirdParty\LWIP\lwip_app\lwip_comm\lwip_comm.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\netif/etharp.h)(0x5E15CC73)
+I (..\thirdParty\LWIP\lwip-1.4.1\src\include\ipv4\lwip/ip.h)(0x5E15CC73)
+I (C:\Users\M\AppData\Local\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)

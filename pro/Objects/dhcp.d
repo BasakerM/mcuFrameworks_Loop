@@ -1,0 +1,9 @@
+.\objects\dhcp.o: ..\thirdParty\LWIP\lwip-1.4.1\src\core\dhcp.c
+.\objects\dhcp.o: ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h
+.\objects\dhcp.o: ..\thirdParty\LWIP\lwip_app\lwip_comm\lwipopts.h
+.\objects\dhcp.o: ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/debug.h
+.\objects\dhcp.o: ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/arch.h
+.\objects\dhcp.o: ..\thirdParty\LWIP\arch/cc.h
+.\objects\dhcp.o: ..\thirdParty\LWIP\arch/cpu.h
+.\objects\dhcp.o: C:\Users\M\AppData\Local\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\dhcp.o: ..\thirdParty\LWIP\lwip-1.4.1\src\include\lwip/opt.h
