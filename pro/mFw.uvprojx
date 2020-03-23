@@ -430,6 +430,21 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>mDriver</GroupName>
+          <Files>
+            <File>
+              <FileName>mUart1Driver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\mDriver\uart\mUart1Driver.c</FilePath>
+            </File>
+            <File>
+              <FileName>mTcpDriver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\mDriver\tcp\mTcpDriver.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>mCore</GroupName>
           <Files>
             <File>
@@ -450,17 +465,17 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>mDriver</GroupName>
+          <GroupName>mSys</GroupName>
           <Files>
             <File>
-              <FileName>mUart1Driver.c</FileName>
+              <FileName>mSys.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\mDriver\uart\mUart1Driver.c</FilePath>
+              <FilePath>..\mSys\mSys.c</FilePath>
             </File>
             <File>
-              <FileName>mTcpDriver.c</FileName>
+              <FileName>mSys_runLed.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\mDriver\tcp\mTcpDriver.c</FilePath>
+              <FilePath>..\mSys\mSys_runLed\mSys_runLed.c</FilePath>
             </File>
           </Files>
         </Group>

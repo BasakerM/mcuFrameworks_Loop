@@ -58,6 +58,7 @@ m_list_t _m_meaasgeList; // 消息链表
 
 /****************************************************************************************************/
 //main
+extern void _mSys_init(void);
 
 int main (void)
 {
@@ -68,6 +69,8 @@ int main (void)
     _m_task_init(); // 初始化任务功能
 
     _m_systick_init(); // 初始化 systick
+
+    _mSys_init();
 
     while(1)
     {
@@ -95,7 +98,12 @@ void _m_systick_init(void)
 }
 void SysTick_Handler(void)
 {
+    static unsigned char flag = 0;
     _m_task_isr();
+    if(flag)
+    GPIO_SetBits(GPIOF,GPIO_Pin_0); // 初始化为高
+    else
+    GPIO_ResetBits(GPIOF,GPIO_Pin_0); // 初始化为高
 }
 //main
 /****************************************************************************************************/

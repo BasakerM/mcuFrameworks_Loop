@@ -13,6 +13,8 @@ extern void mConsoleTask_init(void);
 
 extern void mTcpServerTask_init(void);
 
+// extern void mSpiTask_init(void);
+
 
 /**
  * 说明 : 添加任务后,将任务的初始化函数写在该函数中
@@ -27,6 +29,9 @@ void TaskInit_config(void)
 	mConsoleTask_init();
 	
 	mTcpServerTask_init();
+	
+	// mSpiTask_init();
+	
 }
 
 /****************************************************************************************************/
