@@ -1,0 +1,10 @@
+.\objects\test.o: ..\app\test.c
+.\objects\test.o: ..\mfw\mFw.h
+.\objects\test.o: ..\mfw\global.h
+.\objects\test.o: C:\Users\M\AppData\Local\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\test.o: C:\Users\M\AppData\Local\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\objects\test.o: C:\Users\M\AppData\Local\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\test.o: C:\Users\M\AppData\Local\Keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\test.o: ..\mfw\list.h
+.\objects\test.o: ..\mfw\fifo.h
+.\objects\test.o: ..\mfw\task.h

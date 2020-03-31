@@ -1,1 +1,1 @@
-.\objects\m_thread_switch.o: ..\mCore\m_thread_switch.S
+.\objects\m_thread_switch.o: ..\mfw\m_thread_switch.S

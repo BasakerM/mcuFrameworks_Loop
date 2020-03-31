@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "tcp_server_demo.h": "c"
+        "tcp_server_demo.h": "c",
+        "app.h": "c",
+        "mfwfunc.h": "c"
     }
 }
