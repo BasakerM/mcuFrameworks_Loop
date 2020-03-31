@@ -1,1 +1,1 @@
-.\objects\startup_stm32f40_41xxx.o: ..\ST\startup_stm32f40_41xxx.s
+.\objects\startup_stm32f40_41xxx.o: ..\hardwareDriver\mcu\ST\startup_stm32f40_41xxx.s
